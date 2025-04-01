@@ -15,7 +15,7 @@
         <div class="container mx-auto px-4" x-data="{ mobileMenuOpen: false }">
             <div class="flex justify-between items-center py-4">
                 <a href="{{ route('home') }}" class="text-2xl font-bold flex items-center group">
-                    <span class="text-3xl mr-2 group-hover:scale-110 transition-transform duration-300">🍎</span>
+                    <span class="text-3xl mr-2 group-hover:scale-110 transition-transform duration-300"></span>
                     <span class="bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">AppleLaunch.id</span>
                 </a>
                 

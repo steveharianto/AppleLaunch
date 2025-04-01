@@ -64,3 +64,57 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# 🍎 AppleLaunch.id
+
+![AppleLaunch.id](https://example.com/screenshot.png)
+
+> Selalu Terdepan Bersama Apple
+
+A modern promotional website for Apple products built with Laravel, featuring responsive design and full CRUD functionality. AppleLaunch.id showcases the latest Apple products with detailed descriptions and images.
+
+## ✨ Features
+
+- **Responsive Design** - Works seamlessly on desktops, tablets, and mobile devices
+- **Product Management** - Complete CRUD operations for Apple product promotions
+- **Image Upload** - Support for product images with preview functionality
+- **Modern UI** - Clean, professional interface using Tailwind CSS
+- **PostgreSQL Database** - Reliable data storage with migrations and seeders
+- **Laravel Best Practices** - Following conventions with Resource Controllers and Blade templates
+
+## 🛠️ Tech Stack
+
+- **Backend**: Laravel 10+
+- **Frontend**: Tailwind CSS, Alpine.js
+- **Database**: PostgreSQL
+- **Tools**: Vite, PHP 8.x
+
+## 📋 Requirements
+
+- PHP 8.0 or higher
+- Composer
+- Node.js & NPM
+- PostgreSQL (or optional: MySQL/SQLite)
+
+## 🚀 Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/applelaunch.git
+cd applelaunch
+```
+
+2. **Install dependencies**
+```bash
+composer install
+npm install
+```
+
+3. **Configure environment**
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+4. **Configure database**
+Edit the `.env` file and set your database credentials:
