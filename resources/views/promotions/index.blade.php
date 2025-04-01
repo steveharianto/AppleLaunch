@@ -16,7 +16,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         @foreach($promotions as $promotion)
             <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <img src="{{ $promotion->image_url }}" alt="{{ $promotion->title }}" class="w-full h-48 object-cover">
+                <img src="{{ $promotion->image_url }}" alt="{{ $promotion->title }}" class="w-full h-48 object-contain">
                 <div class="p-6">
                     <h2 class="text-xl font-bold mb-2">{{ $promotion->title }}</h2>
                     <p class="text-gray-700 mb-4">{{ Str::limit($promotion->description, 100) }}</p>
